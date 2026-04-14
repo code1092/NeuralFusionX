@@ -12,6 +12,21 @@ Make sure you have the following installed:
 - npm (comes with Node.js)
 
 ---
+After installing Node.js, verify it works by running:
+
+```bash
+node -v
+```
+
+Then open **PowerShell as Administrator** and run this command once to allow scripts to execute:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+When prompted, type `Y` and press Enter.
+
+---
 
 ## Getting Started
 
